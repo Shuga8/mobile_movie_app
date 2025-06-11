@@ -24,7 +24,7 @@ export default function Index() {
     error: moviesError,
   } = useFetch(() =>
     fetchMovies({
-      query: "iron man",
+      query: "",
     })
   );
   return (
